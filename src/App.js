@@ -1,11 +1,11 @@
-import Komponen from "./Materi/Komponen";
+import Tugas from "./Tugas/Styling Component";
 
 function App() { //functional component
   return (
     <div className="App">
-      <Komponen />
+      <Tugas />
     </div>
-  );
+  )
 }
 
 export default App;
