@@ -1,9 +1,9 @@
-import Tugas from "./Tugas/Styling Component";
+import TugasFormRegistrasi from "./Tugas/Form and Validation";
 
 function App() { //functional component
   return (
     <div className="App">
-      <Tugas />
+      <TugasFormRegistrasi />
     </div>
   )
 }
