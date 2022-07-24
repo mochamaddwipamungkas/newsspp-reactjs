@@ -2,7 +2,7 @@ import React from "react";
 import Portfolio from "./Portfolio";
 
 
-export default class Tugas extends React.Component {
+export default class Tugass extends React.Component {
 
     render() {
         return (

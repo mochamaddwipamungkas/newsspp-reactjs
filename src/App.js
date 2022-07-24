@@ -1,9 +1,9 @@
-import TugasFormRegistrasi from "./Tugas/Form and Validation";
+import Tugas from "./Tugas/indexTugas";
 
 function App() { //functional component
   return (
     <div className="App">
-      <TugasFormRegistrasi />
+      <Tugas />
     </div>
   )
 }
