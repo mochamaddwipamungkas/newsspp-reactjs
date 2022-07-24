@@ -1,9 +1,9 @@
-import TugasHook from "./Tugas/Hook/IndexTugasHook";
+import Tugas from "./Tugas/indexTugas";
 
 function App() { //functional component
   return (
     <div className="App">
-      <TugasHook />
+      <Tugas />
     </div>
   )
 }
