@@ -13,9 +13,9 @@ const FunCompContainer = () => {
         setLoading(true)
 
         try {
-            let url = 'https://dwi-reactjs.herokuapp.com/newsapi.org/v2/top-headlines?country=id&apiKey=237862ee55f1472db0725d019903c9d0'
+            let url = 'https://newsapi.org/v2/top-headlines?country=id&apiKey=237862ee55f1472db0725d019903c9d0'
             if (inputKey !== '') {
-                url = 'https://dwi-reactjs.herokuapp.com/newsapi.org/v2/everything?apiKey=237862ee55f1472db0725d019903c9d0&q=' + inputKey
+                url = 'https://newsapi.org/v2/everything?apiKey=237862ee55f1472db0725d019903c9d0&q=' + inputKey
             }
             axios.get(url)
                 .then(usersx => {
