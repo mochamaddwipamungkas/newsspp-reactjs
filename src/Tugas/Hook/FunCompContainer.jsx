@@ -67,10 +67,6 @@ const FunCompContainer = () => {
 
                     loading ? <div> Loading.... </div> :
                         user.map((user, idx) => {
-
-
-
-
                             return (
 
                                 < Col key={idx} className="col-md-4 col-sm-6 mb-5" >
