@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button, Col, Card } from "react-bootstrap";
-// import axios from 'axios';
+import axios from 'axios';
 
 
 
@@ -20,24 +20,24 @@ export default class ClassContainer extends React.Component {
         if (inputKey !== '') {
             url = 'https://newsapi.org/v2/everything?apiKey=237862ee55f1472db0725d019903c9d0&q=' + inputKey
         }
-        // axios.get(url)
-        //     .then(usersx => {
-        //         const gab = usersx.data.articles
-        //         this.setState({
-        //             users: gab
-        //         })
-
-        //     })
-
-        fetch(url)
-            .then(res => res.json())
-            .then(res => {
-                const gab = res.articles
-                console.log(gab)
+        axios.get(url)
+            .then(usersx => {
+                const gab = usersx.data.articles
                 this.setState({
                     users: gab
                 })
+
             })
+
+        // fetch(url)
+        //     .then(res => res.json())
+        //     .then(res => {
+        //         const gab = res.articles
+        //         console.log(gab)
+        //         this.setState({
+        //             users: gab
+        //         })
+        //     })
 
     }
 
