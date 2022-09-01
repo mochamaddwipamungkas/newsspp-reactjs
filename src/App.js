@@ -1,10 +1,10 @@
-import TugasRouting from "./Tugas/Routing/TugasRouting";
+import Redux from "./Materi/Redux";
 
 function App() { //functional component
   return (
     <div className="App">
       <header className="App-header">
-        <TugasRouting />
+        < Redux />
       </header>
 
     </div>
